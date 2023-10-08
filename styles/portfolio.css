@@ -1,0 +1,132 @@
+.contact-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  padding: 5% 12%;
+  gap: 8em;
+  text-align: center;
+}
+
+.contact-form{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.contact-form input{
+  padding: 1.5em 1.5em;
+  margin: 1em 0;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  background-color: black;
+}
+
+.contact-form input::placeholder{
+  color: #707070;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.contact-form textarea{
+  padding: 1.4em;
+  font-size: 16px;
+  resize: none;
+  margin-bottom: 1em;
+  background-color: black;
+  border: none;
+  margin-top: 1em;
+  border-radius: 10px;
+  outline: none;
+  height: 150px;
+
+}
+
+.contact-form button{
+  border: none;
+  border-radius: 5px;
+  background-color: #c70039;
+  color: #ffffff;
+  font-size: 1.2rem;
+  font-weight: 600;
+  cursor: pointer;
+  align-self: center;
+  padding: 10px 40px;
+  transition: all 0.5s ease;
+  margin-top: 0.8em;
+}
+
+.contact-form button:hover{
+  scale: 1.1;
+}
+
+.contact-form h1{
+  font-size: 1.5em;
+  text-align: center;
+  font-weight: 500;
+  position: relative;
+  margin: 8% 0 5% 0;
+}
+
+.contact-form form{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+
+.contact-details-background{
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("../images/Default_neon_light_art_in_the_dark_of_night_moonlit_seas_clou_3_8b40f476-6447-4185-982e-2e5f6987cf4a_1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact-details-background h1{
+  font-size: 1.5em;
+  text-align: center;
+  font-weight: 500;
+  position: relative;
+  margin: 8% 0 5% 0;
+
+}
+
+.contact-details-background i{
+  font-size: 2.5rem;
+  color: #c70039;
+  margin-bottom: 1em;
+}
+
+.contact-details-background p{
+  font-size: 0.9rem;
+  color: #bfbfc0;
+  font-weight: 500;
+  margin-bottom: 1em;
+}
+
+.my-name, .my-location, .my-phone, .my-email{
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 1fr;
+}
+
+.my-name i, .my-location i, .my-phone i, .my-email i{
+  font-size: 2.5rem;
+  color: #c70039;
+  margin-left: 1em;
+}
+
+.my-name div, .my-location div, .my-phone div, .my-email div{
+  text-align: start;
+  font-size: 14px;
+}
+
+.contact-details-background h3{
+  color: #bfbfc0;
+}
+
+
+
