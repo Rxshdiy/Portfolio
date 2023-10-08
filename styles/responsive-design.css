@@ -243,5 +243,17 @@
     left: 20px;
   }
 
+  .nav-menu ul{
+    padding: 0;
+  }
+
+  .nav-menu ul li{
+    padding: 0;
+  }
+
+  .nav-menu ul li a{
+    font-size: 1.2rem;
+  }
+
 
 }
