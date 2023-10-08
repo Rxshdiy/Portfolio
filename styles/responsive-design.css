@@ -1,0 +1,282 @@
+/* responsive design for a max of 1200px */
+
+@media screen and (max-width: 1200px) {
+  .social-media{
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    flex-direction: row;
+    margin: 0 auto;
+    gap: 40px;
+  }
+
+  .social-media i{
+    font-size: 2rem;
+  }
+
+  .next-page{
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    font-size: 2rem;
+  }
+
+  .first-section{
+    justify-content: center;
+    align-items: center;
+  }
+
+  .first-section h1{
+    font-size: 2.5em;
+  }
+
+  .first-section p{
+    font-size: 1.2rem;
+  }
+
+  .nav-section{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .nav-section img{
+    width: 40px;
+    height: 40px;
+  }
+
+  .nav-section .burger-menu{
+    display: block;
+  }
+
+  .nav-section .burger-menu div{
+    width: 40px;
+    height: 3px;
+    background-color: white;
+    margin: 5px;
+  }
+  
+  .first-about-section{
+    grid-template-columns: 1fr;
+    grid-gap: 2rem;
+  }
+
+  .first-about-section img{
+    width: 100%;
+    height: 100%;
+  }
+
+  .paragraph-about-me{
+    margin-top: 15%;
+    margin-bottom: 5%;
+  }
+
+  .paragraph-about-me p{
+    font-size: 1.2rem;
+  }
+
+  .paragraph-about-me h1{
+    font-size: 2.5rem;
+    line-height: 1.5em;
+  }
+
+  .paragraph-about-me button{
+    width: 100%;
+    font-size: 18px;
+  }
+
+  .my-skills-container{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .my-skills-container h1{
+    font-size: 2.5rem;
+  }
+
+  .my-skills-container .skill{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .my-skills-container .skill p{
+    font-size: 1.2rem;
+  }
+
+  .my-skills-heading{
+    margin-top: 15%;
+  }
+
+  .portfolio-projects{
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    margin-top: 5%;
+    margin-bottom: 15%;
+  }
+
+  .portfolio-projects img{
+    width: 100%;
+  }
+
+  .project{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .project-info{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .project-info h1{
+    font-size: 2rem;
+  }
+
+  .project-info p{
+    font-size: 1rem;
+  }
+
+  .project-info button{
+    width: 100%;
+  }
+
+  .contact-container{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact-container h1{
+    font-size: 1.8rem;
+  }
+
+  .contact-form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .contact-form input{
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    padding: 0 10px;
+  }
+
+  .contact-form textarea{
+    width: 100%;
+    height: 100px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+  }
+
+  .contact-form button{
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: #c70039;
+    color: #ffffff;
+    font-size: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+    align-self: center;
+    padding: 10px 40px;
+    transition: all 0.5s ease;
+  }
+
+  .contact-form button:hover{
+    scale: 1.1;
+  }
+
+  .footer{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .contact-details-background{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 10% 0;
+    margin-bottom: 5%;
+  }
+
+  .contact-details-background h1{
+    font-size: 1.8rem;
+  }
+
+  .contact-details-background p{
+    font-size: 0.9rem;
+  }
+
+  .contact-details-background i{
+    font-size: 1.5rem;
+  }
+
+  .my-name, .my-location, .my-phone, .my-email{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+  }
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .portfolio-projects {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  .portfolio-projects img {
+    width: 100%;
+  }
+
+  .portfolio-projects .project-details {
+    margin-top: 1em;
+  }
+
+  .project-info h1 {
+    font-size: 2em;
+  }
+
+  .project-info p {
+    font-size: 1rem;
+  }
+
+  .project-info button {
+    width: 100%;
+  }
+
+  
+
+
+}
