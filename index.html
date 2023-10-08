@@ -14,6 +14,7 @@
     <title>Home Page</title>
   </head>
   <body>
+    <div class="preloader"></div>
     <div id="particles-js"></div>
     <div class="first-section">
 
@@ -51,6 +52,18 @@
     </div>
 
     </div>
+    <script>
+
+      let loader = document.querySelector(".preloader");
+
+      window.addEventListener("load", vanish);
+
+      function vanish() {
+        loader.classList.add("disappear");
+      }
+
+      
+    </script>
     <script src="scripts/script.js"></script>
     <script src="scripts/particles.js"></script>
     <script src="scripts/app.js"></script>
