@@ -268,5 +268,11 @@
     display: none;
   }
 
+  .preloader{
+    background-size: 10%;
+  }
+
+
+
 
 }
