@@ -260,5 +260,15 @@
     font-size: 1.2rem;
   }
 
+  #home-nav:before, #about-nav:before, #portfolio-nav:before, #contact-nav:before{
+    display: none;
+  }
+
+  #home-nav:before:hover, #about-nav:before:hover, #portfolio-nav:before:hover, #contact-nav:before:hover{
+   visibility: hidden;
+   display: none;
+  }
+
+
 
 }
