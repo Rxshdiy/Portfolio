@@ -234,49 +234,14 @@
     gap: 1rem;
     align-items: center;
   }
-
   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  .portfolio-projects {
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+  .burger-menu{
+    right: 20px
   }
 
-  .portfolio-projects img {
-    width: 100%;
+  .logo{
+    left: 20px;
   }
-
-  .portfolio-projects .project-details {
-    margin-top: 1em;
-  }
-
-  .project-info h1 {
-    font-size: 2em;
-  }
-
-  .project-info p {
-    font-size: 1rem;
-  }
-
-  .project-info button {
-    width: 100%;
-  }
-
-  
 
 
 }
