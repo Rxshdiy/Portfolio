@@ -55,10 +55,10 @@
       <div class="contact-section">
         <div class="contact-form">
           <h1>Send a message</h1>
-          <form action="contactform.php" method="post">
-            <input type="text" name="name" placeholder="Name" />
-            <input type="text" name="mail" placeholder="Email" />
-            <input type="text" name="subject" placeholder="Subject" />
+          <form action="https://formspree.io/f/myyqbqlk" method="post" >
+            <input type="text" name="name" placeholder="Name" required/>
+            <input type="text" name="mail" placeholder="Email" required/>
+            <input type="text" name="subject" placeholder="Subject" required/>
             <textarea name="message" placeholder="Message"></textarea>
             <button type="submit" name="submit">Send</button>
           </form>
@@ -101,5 +101,6 @@
       @ Rushdiy Isaacs
     </footer>
     <script src="scripts/script.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
   </body>
 </html>
