@@ -264,11 +264,9 @@
     display: none;
   }
 
-  #home-nav:before:hover, #about-nav:before:hover, #portfolio-nav:before:hover, #contact-nav:before:hover{
-   visibility: hidden;
-   display: none;
+  #home-nav:hover:before, #about-nav:hover:before, #portfolio-nav:hover:before, #contact-nav:hover:before{
+    display: none;
   }
-
 
 
 }
