@@ -1,3 +1,11 @@
+let loader = document.querySelector(".preloader");
+
+window.addEventListener("load", vanish);
+
+function vanish() {
+  loader.classList.add("disappear");
+}
+
 const navMenu = document.querySelector('.nav-menu');
 const burgerMenu = document.querySelector('.burger-menu');
 
